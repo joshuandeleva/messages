@@ -1,0 +1,32 @@
+Arguments: 
+  /home/josh/.nvm/versions/node/v16.14.0/bin/node /usr/share/yarn/bin/yarn.js add express mongoose
+
+PATH: 
+  /home/josh/.rbenv/shims:/home/josh/.rbenv/bin:/home/josh/.rbenv/shims:/home/josh/.rbenv/bin:/home/josh/.nvm/versions/node/v16.14.0/bin:/home/josh/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  16.14.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: getaddrinfo EAI_AGAIN registry.yarnpkg.com
+      at GetAddrInfoReqWrap.onlookup [as oncomplete] (node:dns:71:26)
+
+npm manifest: 
+  {
+    "name": "backend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
